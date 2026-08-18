@@ -1,0 +1,95 @@
+/* selector {
+  property: value;
+} */
+
+* {
+  margin: 0;
+}
+
+/* rule */
+header {
+  background-color: black;
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px 60px;
+  /* padding: 20px 40px 60px; */
+  /* padding: 20px 40px 60px 80px; */
+
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.link {
+  margin-right: 20px;
+}
+
+a {
+  font-size: 1.5rem; /*1.5 x 16 = 24px*/
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  background-color: gray;
+  width: 450px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 100px auto;
+}
+form {
+  background-color: beige;
+  padding: 40px 20px;
+  box-shadow: x y blur spread color;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.176);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+input {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: black; */
+  /* border: 5px solid black; */
+  outline: 2px solid black;
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  border-radius: 5px;
+  /* outline-offset: -15px; */
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  background-color: black;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px 0px;
+}
